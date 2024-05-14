@@ -4,7 +4,7 @@
   "KeyDescriptions": [
     {
       "keyName": "targetname",
-      "keyDescription": "Set name of {{ entname }} so other entities can trigger it to toggle animated textures used on func_wall's brush. If func_wall have animated or toggleable textures, and gets triggered, animated texture changes depending on trigger use-type: 'On'- turn animated texture off (+'NUM' to +A state), 'Toggle'- toggle animated texture, 'Off'- turn animated texture on (+A to +'NUM' state). Can be kill-targeted.",
+      "keyDescription": "Set name of {{ entname }} so other entities can trigger it to toggle animated textures used on func_wall's brush. If the func_wall has animated or toggleable textures, and gets triggered, the animated texture changes depending on trigger use-type: 'On'- turn animated texture off (+'NUM' to +A state), 'Toggle'- toggle animated texture, 'Off'- turn animated texture on (+A to +'NUM' state). Can be kill-targeted.",
       "keyChoices": []
     },
     {

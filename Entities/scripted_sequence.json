@@ -23,7 +23,7 @@
     },
     {
       "keyName": "m_iszPlay",
-      "keyDescription": "Name of the animation to play when the monster arrives at the scripted_sequence's location. Animation names and animations vary between monsters. A model viewer like Jed's Half-Life Model Viewer allows you to look at the animations of a Half-Life model file. The action animation is optional.",
+      "keyDescription": "Name of the animation to play when the monster arrives at the scripted_sequence's location. Animation names and animations vary between monsters. A model viewer like [Half-Life Asset Manager](https://github.com/SamVanheer/HalfLifeAssetManager/releases) allows you to look at the animations of a Half-Life model file. The action animation is optional.",
       "keyChoices": []
     },
     {
@@ -51,15 +51,15 @@
         },
         {
           "choiceValue": "1 ",
-          "choiceDescription": "Monster walks to this entity position, idle animation won't play, action animation plays automatically."
+          "choiceDescription": "Monster walks to this entity's position, idle animation won't play, action animation plays automatically."
         },
         {
           "choiceValue": "2 ",
-          "choiceDescription": "Monster runs to this entity position, idle animation won't play, action animation plays automatically."
+          "choiceDescription": "Monster runs to this entity's position, idle animation won't play, action animation plays automatically."
         },
         {
           "choiceValue": "4 ",
-          "choiceDescription": "Teleports to this entity then playing idle animation until triggered."
+          "choiceDescription": "Monster instantly teleports to this entity's position, then plays idle animation until triggered."
         },
         {
           "choiceValue": "5 ",
@@ -78,7 +78,7 @@
       "keyChoices": [
         {
           "choiceValue": "4 ",
-          "choiceDescription": "The scripted_sequence won't be removed after finishing, allowing to use it again."
+          "choiceDescription": "The scripted_sequence won't be removed after finishing, allowing it to used again."
         },
         {
           "choiceValue": "8 ",
@@ -98,7 +98,7 @@
         },
         {
           "choiceValue": "256",
-          "choiceDescription": "y default, the monster is 'reset' after the sequence ends. This means, that its recent activity will be stopped and no animation interpolation will be done. The monster will appear to suddenly start its next action/animation of its own common AI behaviour, depending on the circumstances. Activity means the very action the monster is doing in a moment. These can be different attacks, movements into different directions, the monster flinching from the impact of an attack, dying or doing anything it can do. (E.g.: Barney has two activity states for drawing/holstering his gun.) Checking this flag disables this behaviour, causing a smoother transition from the end of the sequence to the monster picking up its AI again, in the sense of visual appearance and monster action. This comes at the risk of unwanted effects. You may experiment with this."
+          "choiceDescription": "By default, the monster is 'reset' after the sequence ends. This means, that its recent activity will be stopped and no animation interpolation will be done. The monster will appear to suddenly start its next action/animation of its own common AI behaviour, depending on the circumstances. Activity means the very action the monster is doing in a moment. These can be different attacks, movements into different directions, the monster flinching from the impact of an attack, dying or doing anything it can do. (E.g.: Barney has two activity states for drawing/holstering his gun.) Checking this flag disables this behaviour, causing a smoother transition from the end of the sequence to the monster picking up its AI again, in the sense of visual appearance and monster action. This comes at the risk of unwanted effects. You may experiment with this."
         }
       ]
     }

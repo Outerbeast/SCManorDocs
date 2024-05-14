@@ -1,6 +1,6 @@
 {
   "Classname": "trigger_respawn",
-  "Description": "This entity, by default, respawns all players when triggered. Alive players will only be relocated to active spawnpoints and have their health restored to their maximum health, unless special flag selected. They keep their equipment. You can also specify that only dead players get respawned by this entity.",
+  "Description": "This entity, by default, respawns all players when triggered. Alive players will only be relocated to active spawnpoints and have their health restored to their maximum health, unless the \"Don't move living players\" flag is selected. They keep their equipment. You can also specify that only dead players get respawned by this entity.",
   "KeyDescriptions": [
     {
       "keyName": "spawnflags",
@@ -22,7 +22,7 @@
     },
     {
       "keyName": "targetname",
-      "keyDescription": "Set name of {{ entname }} so other entities can trigger it to respawn playr(s). Every trigger use-type works uniformly. Can be kill-targeted.",
+      "keyDescription": "Set name of {{ entname }} so other entities can trigger it to respawn player(s). Every trigger use-type works uniformly. Can be kill-targeted.",
       "keyChoices": []
     },
     {

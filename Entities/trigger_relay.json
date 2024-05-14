@@ -12,7 +12,7 @@
         },
         {
           "choiceValue": "64 ",
-          "choiceDescription": "By default trigger_relay overrides activator with itself. With this flag selected trigger_relay will pass original activator to next entity in chain."
+          "choiceDescription": "By default trigger_relay overrides activator with itself. With this flag selected trigger_relay passes the original activator to the next entity in the trigger chain."
         }
       ]
     },
@@ -57,6 +57,7 @@
   ],
   "Notes": [
     "If you change a trigger_relay's target while its delay is counting down, the old target will be fired.",
-    "If you killtarget a trigger_relay while its delay is counting down, it will still fire. Trigger_relay passes itself on as the activator when triggered unless 'Keep !activator' flag is selected."
+    "If you killtarget a trigger_relay while its delay is counting down, it will still fire.",
+    "Trigger_relay passes itself on as the activator when triggered unless 'Keep !activator' flag is selected."
   ]
 }

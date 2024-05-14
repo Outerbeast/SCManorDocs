@@ -1,6 +1,6 @@
 {
   "Classname": "cycler",
-  "Description": "The cycler entity is used to display models in your map. Its collision hull is solid to bullets and will spill black and white blood. The cycler entity will cycle through the model's animations every time it takes damage, of in case it gets triggered- cycle part of current animation. A better, non-solid alternative to this entity is [item_generic](../item_generic], which allows you to set up your own collisions using clip- or null-textured brushes.",
+  "Description": "The cycler entity is used to display models in your map. The cycler entity will cycle through the model's animations every time it takes damage, of in case it gets triggered- cycle part of current animation. Its collision hull is solid to bullets and will spill black and white blood. It is not recommended to use this entity. Instead use [item_generic](item_generic], which has additional features such as customization of hull size, collision, animation and gravity setting",
   "KeyDescriptions": [
     {
       "keyName": "model",
@@ -38,23 +38,23 @@
         },
         {
           "choiceValue": "9",
-          "choiceDescription": "Regular slow appearing/dissapearing."
+          "choiceDescription": "Regular slow appearing/disappearing."
         },
         {
           "choiceValue": "10",
-          "choiceDescription": "Regular fast appearing/dissapearing."
+          "choiceDescription": "Regular fast appearing/disappearing."
         },
         {
           "choiceValue": "11",
-          "choiceDescription": "Regular very fast appearing/dissapearing."
+          "choiceDescription": "Regular very fast appearing/disappearing."
         },
         {
           "choiceValue": "12",
-          "choiceDescription": "Random slow appearing/dissapearing."
+          "choiceDescription": "Random slow appearing/disappearing."
         },
         {
           "choiceValue": "13",
-          "choiceDescription": "Random fast appearing/dissapearing."
+          "choiceDescription": "Random fast appearing/disappearing."
         },
         {
           "choiceValue": "5",

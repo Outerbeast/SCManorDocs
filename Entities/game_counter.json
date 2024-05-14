@@ -52,6 +52,6 @@
     }
   ],
   "Issues": [
-    "When target is set to ambient_generic, the game_counter need to receive twice more inputs than normal, unless \"Fire if over limit\" spawnflag is selected."
+    "When target is set to ambient_generic, the game_counter needs to receive twice more inputs than normal, unless \"Fire if over limit\" spawnflag is selected."
   ]
 }

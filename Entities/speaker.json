@@ -9,7 +9,7 @@
     },
     {
       "keyName": "preset",
-      "keyDescription": "Name of announcement group to play. Found in default_senteces.txt, look for grouped \"intercom\" labeled entries.",
+      "keyDescription": "Name of announcement group to play. Found in default_sentences.txt, look for grouped \"intercom\" labeled entries.",
       "keyChoices": [
         {
           "choiceValue": "0",

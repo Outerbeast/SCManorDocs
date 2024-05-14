@@ -14,7 +14,7 @@
     },
     {
       "keyName": "m_iszScriptFunctionName",
-      "keyDescription": "Function (declared in the opened script file) to call when trigger_script is triggered. If the function belongs to namespace, you must use prefix with the namespace name (e.g. mynamespace::MyFunction) for the keyvalue.",
+      "keyDescription": "Function (declared in the opened script file) to call when trigger_script is triggered. If the function belongs to a namespace, you must use prefix with the namespace name (e.g. mynamespace::MyFunction) for the keyvalue.",
       "keyChoices": []
     },
     {
